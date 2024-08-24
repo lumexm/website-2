@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betwise AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Betwise AI</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Smart Betting Insights</h2>
+            <p>Unlock the potential of AI-driven betting strategies.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-box">
+                <h3>AI-Powered Predictions</h3>
+                <p>Our AI analyzes thousands of data points to provide accurate betting insights.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Real-Time Updates</h3>
+                <p>Stay informed with real-time data and live updates on betting trends.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Custom Strategies</h3>
+                <p>Create and customize betting strategies tailored to your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <p>$19/month</p>
+                <a href="#contact" class="cta-button">Subscribe</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Pro</h3>
+                <p>$49/month</p>
+                <a href="#contact" class="cta-button">Subscribe</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <p>$99/month</p>
+                <a href="#contact" class="cta-button">Subscribe</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Betwise AI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
